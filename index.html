@@ -1,37 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mr.SPD</title>
-</head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Clean Up Lab</title>
+</head> 
+
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
+  <div id="page-wrapper">
+    <header id="header">
+      <a id="logo" href="index.html">
+        <img src="images/logo3.png" alt="Acme logo, large and in red">
+      </a>
+      <h1>My Demo Site</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="https://www.youtube.com/@mr.spdview">my YT channel</a></li>
-            <li><a href="https://www.instagram.com/mrspd_darshhan/">my insta id</a></li>
-            <li><a href="#kdhc">link three</a></li>
-        </ul>
+
+    <nav id="main-nav">
+      <ul>
+        <li><a href="http://www.iit.edu">IIT Home</a></li>
+        <li><a href="http://www.google.com">Google</a></li>
+        <li><a href="http://www.microsoft.com">Microsoft</a></li>
+        <li><a href="http://www.cnn.com">CNN</a></li>
+        <li><a href="http://admissions.iit.edu">IIT Admissions</a></li>
+      </ul>
     </nav>
-    <main>
-        <section id="about">
-            <h2>king</h2>
-            <p>Vanakam(hello in Tamil language)</p>
-        </section>
-        <section id="services">
-            <h2>greeting</h2>
-            <ul>
-                <li>hey</li>
-                <li>there</li>
-                <li>hello</li>
-            </ul>
-        </section>
+
+    <main id="content-wrapper">
+      <section id="main-content">
+        <h2>This is our h2 Tag</h2>
+        <img class="image" src="images/main.png" alt="Logo for Main Squeeze Juice Company in black and white">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis, sed ab sequi molestias eum sint consectetur dicta praesentium ipsa repellat soluta placeat dolor! Accusantium impedit est explicabo harum aperiam!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis, sed ab sequi molestias eum sint consectetur dicta praesentium ipsa repellat soluta placeat dolor! Accusantium impedit est explicabo harum aperiam!</p>
+        <ul id="list1">
+          <li>Learn HTML Basics</li>
+          <li>Explore CSS Styling</li>
+          <li>Practice JavaScript</li>
+          <li>Master Responsive Design</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis, sed ab sequi molestias eum sint consectetur dicta praesentium ipsa repellat soluta placeat dolor! Accusantium impedit est explicabo harum aperiam!</p>
+        <ul id="list2">
+          <li>Introduction to Web Development</li>
+          <li>Advanced HTML Techniques</li>
+          <li>Building Interactive Websites</li>
+          <li>Deploying Your First Project</li>
+        </ul>
+        <div id="video-wrapper">
+          <iframe width="400" height="300" src="https://www.youtube.com/embed/-jn9aaNn8_I?si=D1HhLAWQ5awY9BfU" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <aside id="side-content">
+        <h3>Interesting Articles</h3>
+        <ol id="news">
+          <li>
+            <a href="#">Article 1</a>
+            <p>Preview: Discover the secrets of successful web design.</p>
+          </li>
+          <li>
+            <a href="#">Article 2</a>
+            <p>Preview: Learn how to code like a pro.</p>
+          </li>
+          <li>
+            <a href="#">Article 3</a>
+            <p>Preview: Tips and tricks for debugging your projects.</p>
+          </li>
+          <li>
+            <a href="#">Article 4</a>
+            <p>Preview: Choosing the right tools for web development.</p>
+          </li>
+        </ol>
+      </aside>
     </main>
-    <footer>
-        <p>My Webee</p>
+
+    <footer id="footer">
+      <p>&copy; 2024 My Demo Site. All rights reserved.</p>
     </footer>
+  </div>
 </body>
+
 </html>
